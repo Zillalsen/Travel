@@ -1,0 +1,10 @@
+.scrollUp {
+    position: fixed;
+    right: -100%;
+    bottom: 3.5rem;
+    transition: .4s;
+    &.show {
+        right: 1rem;
+    }
+}
+

@@ -1,0 +1,12 @@
+.video {
+    &-container {
+        row-gap: 2rem;
+    }
+    &-desc {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    &-vid {
+        position: relative;
+    }
+}

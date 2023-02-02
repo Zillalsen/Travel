@@ -1,0 +1,50 @@
+.button {
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 1rem 2rem;
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+    &:hover {
+        background-color: var(--first-color-alt);
+    }
+    &-flex {
+        background-color: transparent;
+        display: inline-flex;
+        align-items: center;        
+        column-gap: .25rem;
+
+    }
+    &-link {
+        padding: 0;
+        background: none;
+        &:hover {
+            background: none;
+        }
+    }
+    &-play  {
+        position: absolute;
+        right: 1rem;
+        bottom: -1rem;
+        padding: 1rem 1.5rem;
+        border-radius: .5rem;
+    }
+    &-play > i {
+        font-size: 1.3rem;
+    }
+    &-play, &-subsc, &-top {
+        border: none;
+    }    
+    &-top {
+        display: flex;
+        align-items: center;
+        padding: .5rem .5rem;
+        cursor: pointer;
+        i {
+            font-size: 1.5rem;
+        }
+    } 
+    
+}
+
+
+

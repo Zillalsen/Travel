@@ -1,0 +1,36 @@
+.newsletter{
+    &-bg {
+        background-color: var(--first-color);   
+        padding: 2.5rem 0;
+    }
+    
+    &-container {
+        text-align: center;
+    }
+    &-container , .section-title {
+        color: var(--white-color);
+        
+    }
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        background-color: var(--input-color);
+        padding: .5rem 1rem;
+        margin: 1.5rem auto 0 auto;
+        
+        .email {
+            background-color: var(--input-color);
+            padding-right: .5rem;
+            width: 70%;
+            color: var(--text-color);
+            border: none;
+            &::placeholder {
+            color: var(--text-color);
+            }
+        }
+        
+    }
+    
+}
